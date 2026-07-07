@@ -43,7 +43,7 @@ async function sendPrompt(message) {
   const row = new ActionRowBuilder().addComponents(
     new ButtonBuilder()
       .setCustomId(CREATE_BUTTON_ID)
-      .setLabel("Crée une carte d'identité)
+      .setLabel("Crée une carte d'identité")
       .setEmoji("<:Link:1521998525536272606>")
       .setStyle(ButtonStyle.Secondary)
   );
