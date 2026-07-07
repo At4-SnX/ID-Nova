@@ -1,0 +1,19 @@
+{
+  "name": "nova-id-bot",
+  "version": "1.0.0",
+  "description": "NOVA ID - Bot Discord de génération de cartes d'identité pour la Cité-État de Nova",
+  "main": "index.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.56",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  },
+  "license": "MIT"
+}
