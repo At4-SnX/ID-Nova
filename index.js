@@ -21,7 +21,7 @@ const client = new Client({
 
 client.once("clientReady", () => {
   console.log(`[NOVA ID] Connectée en tant que ${client.user.tag} ✅`);
-  client.user.setActivity(`${CMD_CREATE} | ${CMD_GET}`, { type: 3 }); // 3 = Regarde
+  client.user.setActivity(`🔗〃NOVɅ RP | EHRP`, { type: 3 }); // 3 = Regarde
 });
 
 client.on("messageCreate", async (message) => {
